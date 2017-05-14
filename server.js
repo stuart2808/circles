@@ -83,7 +83,7 @@ function deleteAll()
 	});
 }	
 
-mongoose.connect("mongodb://localhost:27017/test", function(err,db)
+mongoose.connect("mongodb://stuart:test@ds139791.mlab.com:39791/heroku_nw2c2qbw", function(err,db)
 {
 	if(!err) console.log("connected to database");
 });
